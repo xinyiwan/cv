@@ -1,11 +1,28 @@
 body {
     color: bisque;
+    background-color: azure;
 }
 
 h1 {
     color: brown;
 }
 
-img {
-    background-color: bisque;
+img:hover {
+    background-color    : gold;
 }
+
+/*============class selector===============*/
+
+.broccoli {
+    background-color: seagreen;
+}
+
+.bacon {
+    background-color: black;
+}
+
+.outside {
+    border-radius: 100%;
+}
+
+/*============id selector===============*/
