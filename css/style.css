@@ -10,3 +10,11 @@ hr {
     border-style: none none dotted;
     color: rgba(128, 128, 128, 0.301)
 }
+
+h1 {
+    color: rgb(214, 122, 127);
+}
+
+h3 {
+    color: hsla(30, 100%, 50%, .3);
+}
