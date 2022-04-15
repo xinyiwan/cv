@@ -10,6 +10,21 @@ h1 {
     font-weight: 900;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 200;
+    color: #8f8f8f;
+}
+
 .container-fluid{
     padding: 3% 15%;
 }
@@ -51,4 +66,18 @@ h1 {
 .nav-link {
     font-size: 1.2rem;
     font-weight: 100;
+}
+
+#icon3 {
+    color: #ef8173;
+    margin: 4%;
+}
+
+#icon3:hover {
+    color: #ff4c68;
+}
+
+#smallsec {
+    text-align: center;
+    padding: 4.5;
 }
