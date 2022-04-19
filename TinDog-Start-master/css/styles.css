@@ -55,7 +55,8 @@ p {
 } */
 
 .title-image {
-    width: 20%;
+    padding: 3% 3%;
+    width: 300px;
     transform:rotate(25deg);
     position: absolute;
     right: 20%;
@@ -173,4 +174,26 @@ p {
 #price-colume{
     text-align: center;
     padding: 3% 2%;
+}
+
+
+
+/* Media Query */
+
+@media (max-width : 1040px) {
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 300px;
+
+    }
+
+    #title-bar {
+        text-align: center;
+    }
+
+
+
+
 }
