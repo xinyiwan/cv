@@ -38,14 +38,10 @@ p {
     color: #8f8f8f;
 }
 
-.container-fluid{
-    padding: 3% 15%;
-}
 
 
-
-.btn {
-    margin: 5% 3% 5%;
+.btn-title {
+    margin-right: 5%; 
 }
 
 
@@ -54,9 +50,16 @@ p {
     color: #fff;
 }
 
+/* #title-bar {
+    padding-bottom: 5%;
+} */
+
 .title-image {
-    width: 60%;
+    padding: 3% 3%;
+    width: 300px;
     transform:rotate(25deg);
+    position: absolute;
+    right: 20%;
 }
 
 
@@ -83,7 +86,8 @@ p {
 
 #icon3 {
     color: #ef8173;
-    margin: 4   %;
+    margin-bottom: 10%;
+    
 }
 
 #icon3:hover {
@@ -101,26 +105,47 @@ p {
     margin-inline: 10%; */
 }
 
+/* Features */
+
+#features{
+    padding: 5%;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 15% 10%;
+    /* position: absolute;
+    z-index: 1; */
+    /* color: #fff; */
+    
+}
+
+
 
 /* <!-- Testimonials --> */
 
 #testimonials {
     background-color: #ff4c68;
     text-align: center;
+    padding-bottom: 2%;
 
 }
 
 .carousel-item {
-    padding: 7% 15%;
+    padding-top: 5%;
+    padding-bottom: 1%;
 }
 
 .testimonial-image {
     border-radius: 100%;
-    width: 10p%;
+    width: 20%;
     margin-right: 20px;
 }
 .testimonial-text {
     color: #fff;
+    margin: 3% 10% 3%;
 }
 
 
@@ -149,4 +174,54 @@ p {
 #price-colume{
     text-align: center;
     padding: 3% 2%;
+}
+
+
+/* <!-- Call to Action --> */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 15% 8%;
+}
+
+#cta-text {
+    color: #fff;
+    font-size: 3.5rem;
+    padding-bottom: 5%;
+
+}
+
+
+
+/* <!-- Footer --> */
+
+#footer {
+    padding: 10% 15% 10%;
+    text-align: center;
+}
+
+.foot-icon {
+    padding: 0% 1% 4%;
+}
+
+/* Media Query */
+
+@media (max-width : 1040px) {
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 300px;
+
+
+    }
+
+    #title-bar {
+        text-align: center;
+    }
+
+
+
+
 }
